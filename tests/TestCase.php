@@ -8,7 +8,7 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase {
     protected $matchId, $tvStationMatchId, $leagueId, $continentId, $countryId, $fixtureId, $teamId, $firstTeamId, $secondTeamId,
         $seasonId, $playerId, $bookmakerId, $venueId, $roundId, $team1Id, $team2Id;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setup();
 
